@@ -58,25 +58,3 @@ document.querySelectorAll('section').forEach(section => {
 
 });
 
-// ================================
-// NAVBAR SCROLL
-// ================================
-
-window.addEventListener('scroll', () => {
-
-    const nav =
-        document.querySelector('.custom-navbar');
-
-    if (window.scrollY > 50) {
-
-        nav.style.background =
-            "#8d2d00";
-
-    } else {
-
-        nav.style.background =
-            "rgba(24,13,8,.85)";
-
-    }
-
-});
